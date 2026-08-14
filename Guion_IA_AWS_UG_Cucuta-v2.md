@@ -29,22 +29,46 @@ El desglose completo de tiempos, los puntos de control y el plan de recorte est�
 | **Pregunta que abre** | Si escribir código deja de ser nuestra principal ventaja competitiva, ¿cuál será nuestro valor? |
 | **Respuesta que cierra** | Nuestro valor estará cada vez menos en producir líneas de código y cada vez más en entender problemas, diseñar sistemas, tomar decisiones, evaluar alternativas y garantizar que lo que construimos realmente funcione. |
 | **Frase que se llevan** | El código se está volviendo barato. El criterio sigue siendo caro. |
-| **Actos** | 5 + cierre · 24 secciones · 35 pantallas |
-| **Duración estimada** | **37:50** de charla, sobre un espacio de 60 min → ~20 min para Q&A |
-| **Palabras habladas** | 2.420 |
+| **Actos** | 5 + cierre · 25 secciones · 37 pantallas |
+| **Duración estimada** | **39:58** de charla, sobre un espacio de 60 min → ~20 min para Q&A |
+| **Palabras habladas** | 2.606 |
 
 ---
 ---
 
 # ACTO 0 · Esta no era la charla que iba a dar
 
-**CONTROL DE RELOJ** · Este acto ocupa de **00:00** a **06:47** (6m 47s, 18% de la charla). Si al terminarlo tu reloj pasa de **08:17**, estás atrasado. Es recuperable: acelera 1.3.
+**CONTROL DE RELOJ** · Este acto ocupa de **00:00** a **08:08** (8m 08s, 20% de la charla). Si al terminarlo tu reloj pasa de **09:38**, estás atrasado. Es recuperable: acelera 1.3.
 
-## 0.1 · El cambio de tema
+## 0.1 · Quién les habla
 
-**TIEMPO** · 00:00 → 01:40 · 1m 40s
+**TIEMPO** · 00:00 → 01:15 · 1m 15s
 
-**PANTALLA** — Solo el título de la charla, sobre fondo negro.
+**PANTALLA** — Foto a la izquierda. A la derecha, bullets simples y los tres enlaces al pie.
+
+**GUION**
+
+Antes de empezar, un minuto sobre mí, para que sepan desde dónde les estoy hablando.
+
+Soy Gabriel Díaz. Soy ingeniero de sistemas de la UFPS — de aquí.
+
+Llevo diecisiete años en desarrollo de software. Hoy soy CEO y fundador de GLD Consulting, y trabajo como consultor de TI para empresas en Estados Unidos: Twilio, Livevox, Inpowered AI, Attain Outcomes.
+
+Soy Arquitecto de Soluciones AWS y programador Java certificado.
+
+Y en este momento estoy cursando un Máster en Inteligencia Artificial en el Instituto Europeo de Postgrado — que es, en buena parte, de dónde sale la inquietud que originó esta charla.
+
+**NOTA** — Menciona la UFPS con intención. Si en la sala hay estudiantes de allí, esa frase hace más por tu credibilidad que toda la lista de clientes. Estás diciendo "yo estuve sentado donde ustedes están".
+
+**NOTA** — Un minuto. No más. Los enlaces están en pantalla; no los leas en voz alta, solo di "ahí quedan mis datos si quieren escribirme". Un speaker que se presenta largo pierde la sala antes de empezar.
+
+---
+
+## 0.2 · El cambio de tema
+
+**TIEMPO** · 01:15 → 02:55 · 1m 40s
+
+**PANTALLA** — El tema original: *AWS Lambda · microVMs*. Un diagrama simple o solo las palabras, sobre fondo oscuro. Es la charla que no van a ver.
 
 **GUION**
 
@@ -73,11 +97,11 @@ Porque algo extraño está pasando en nuestra industria.
 
 ---
 
-## 0.2 · Por qué esta vez es diferente
+## 0.3 · Por qué esta vez es diferente
 
-**TIEMPO** · 01:40 → 03:33 · 1m 53s
+**TIEMPO** · 02:55 → 04:54 · 1m 59s
 
-**PANTALLA** — Lista corta que aparece de golpe: *nuevo lenguaje · nuevo framework · nueva arquitectura · nueva plataforma cloud · nueva forma de desplegar*.
+**PANTALLA** — A la izquierda, la lista: *nuevo lenguaje · nuevo framework · nueva arquitectura · nueva plataforma cloud · nueva forma de desplegar*. A la derecha, la infografía `multimedia/1786485118307.jpeg`: el stack de un desarrollador Java en 2015 contra 2026 — una mochila con seis items frente a una silueta cubierta por cincuenta tecnologías.
 
 **GUION**
 
@@ -92,6 +116,10 @@ Y nuestra reacción como ingenieros siempre ha sido bastante sencilla:
 Aprendimos Git. Aprendimos contenedores. Aprendimos cloud. Aprendimos CI/CD. Aprendimos nuevos frameworks.
 
 Y seguimos adelante.
+
+Miren esta imagen. A la izquierda, lo que necesitaba saber un desarrollador Java en 2015: seis cosas en una mochila. A la derecha, 2026.
+
+**NOTA** — Deja la imagen en pantalla y haz la pregunta al público: *"¿esto es progreso, o es carga?"* No la respondas todavía — la respuesta llega en 1.3, cuando hablemos de que la abstracción mueve el nivel en vez de eliminarlo. Vale unos treinta segundos de reacción de la sala.
 
 Pero con la inteligencia artificial empecé a pensar que estaba pasando algo distinto.
 
@@ -116,9 +144,9 @@ Entonces la pregunta dejó de ser una y pasó a ser otra.
 
 ---
 
-## 0.3 · La misma pregunta, tres versiones
+## 0.4 · La misma pregunta, tres versiones
 
-**TIEMPO** · 03:33 → 05:47 · 2m 14s
+**TIEMPO** · 04:54 → 07:08 · 2m 14s
 
 **PANTALLA** — Tres bloques con las tres preguntas, apareciendo uno por uno.
 
@@ -152,9 +180,9 @@ Tres perspectivas diferentes sobre el mismo cambio.
 
 ---
 
-## 0.4 · Lo que vamos a conversar hoy
+## 0.5 · Lo que vamos a conversar hoy
 
-**TIEMPO** · 05:47 → 06:47 · 1m 00s
+**TIEMPO** · 07:08 → 08:08 · 1m 00s
 
 **PANTALLA** — Cinco preguntas numeradas. Esta pantalla se puede repetir como marcador entre actos.
 
@@ -181,13 +209,13 @@ No tengo una bola de cristal. Pero sí podemos mirar lo que está ocurriendo hoy
 
 # ACTO I · De dónde venimos
 
-**CONTROL DE RELOJ** · Este acto ocupa de **06:47** a **13:48** (7m 01s, 19% de la charla). Si al terminarlo tu reloj pasa de **15:18**, estás atrasado. Todavía es recuperable: acelera 2.1 y 2.4.
+**CONTROL DE RELOJ** · Este acto ocupa de **08:08** a **15:09** (7m 01s, 18% de la charla). Si al terminarlo tu reloj pasa de **16:39**, estás atrasado. Todavía es recuperable: acelera 2.1 y 2.4.
 
 ## 1.1 · Las tres horas y los treinta segundos
 
-**TIEMPO** · 06:47 → 08:40 · 1m 53s
+**TIEMPO** · 08:08 → 10:01 · 1m 53s
 
-**PANTALLA** — Solo la pregunta: *¿Perdieron esas tres horas?*
+**PANTALLA** — Arriba, el contraste en dos líneas: *3 horas — aprendiendo a construirlo* · *30 segundos — para que una IA lo escriba*. Abajo, grande: **¿Perdieron esas tres horas?**
 
 **GUION**
 
@@ -215,7 +243,7 @@ Vamos a volver a ella al final.
 
 ## 1.2 · Cuatro etapas de la abstracción
 
-**TIEMPO** · 08:40 → 11:13 · 2m 34s
+**TIEMPO** · 10:01 → 12:34 · 2m 34s
 
 **PANTALLA** — Línea de tiempo con cuatro hitos, revelados uno a uno.
 
@@ -263,13 +291,13 @@ Por primera vez estamos automatizando parcialmente **la producción del código 
 
 Ahí está el verdadero cambio.
 
-**NOTA** — Recurso visual disponible: `multimedia/1786485118307.jpeg`, la infografía "2015 vs 2026" del stack de un desarrollador Java — mochila con seis items contra una silueta cubierta por cincuenta tecnologías. Encaja perfecto entre la segunda y la tercera etapa. Úsala para una pregunta al público: *"¿esto es progreso o es carga?"* — y no la respondas todavía; la respuesta llega en 1.3.
+**NOTA** — La infografía "2015 vs 2026" ya la mostraste en 0.3. Si alguien la trae de vuelta aquí, retómala: la segunda etapa es exactamente lo que hizo crecer esa silueta.
 
 ---
 
 ## 1.3 · La abstracción nunca eliminó al ingeniero
 
-**TIEMPO** · 11:13 → 12:39 · 1m 25s
+**TIEMPO** · 12:34 → 14:00 · 1m 25s
 
 **PANTALLA** — Cuatro pares en columna: *Calculadora / matemáticas · Hoja de cálculo / financieros · Compilador / programadores · Cloud / ingenieros de infraestructura*.
 
@@ -300,7 +328,7 @@ La IA está haciendo exactamente eso. Nos está obligando a subir un nivel.
 
 ## 1.4 · El código se volvió barato
 
-**TIEMPO** · 12:39 → 13:48 · 1m 09s
+**TIEMPO** · 14:00 → 15:09 · 1m 09s
 
 **PANTALLA** — La frase sola, en grande:
 > El código se está volviendo barato. El criterio sigue siendo caro.
@@ -326,11 +354,11 @@ Y de eso quiero hablar ahora.
 
 # ACTO II · Lo que cambió en el trabajo
 
-**CONTROL DE RELOJ** · Este acto ocupa de **13:48** a **18:58** (5m 10s, 14% de la charla). Si al terminarlo tu reloj pasa de **20:28**, estás atrasado. No toques el Acto III — recorta 5.2 según el plan del cronometraje.
+**CONTROL DE RELOJ** · Este acto ocupa de **15:09** a **21:06** (5m 57s, 15% de la charla). Si al terminarlo tu reloj pasa de **22:36**, estás atrasado. No toques el Acto III — recorta 5.2 según el plan del cronometraje.
 
 ## 2.1 · Las preguntas que la IA no responde por ti
 
-**TIEMPO** · 13:48 → 14:45 · 57s
+**TIEMPO** · 15:09 → 16:06 · 57s
 
 **PANTALLA** — Lista de preguntas, apareciendo una por una, acumulándose hasta llenar la pantalla.
 
@@ -350,7 +378,7 @@ La IA puede producir una respuesta.
 
 ## 2.2 · La nueva unidad de productividad
 
-**TIEMPO** · 14:45 → 16:00 · 1m 15s
+**TIEMPO** · 16:06 → 17:21 · 1m 15s
 
 **PANTALLA** — Dos diagramas, uno encima del otro:
 > Problema → desarrollador → código
@@ -385,7 +413,7 @@ La velocidad no reemplaza al conocimiento.
 
 ## 2.3 · De programador a ingeniero aumentado
 
-**TIEMPO** · 16:00 → 17:54 · 1m 54s
+**TIEMPO** · 17:21 → 19:15 · 1m 54s
 
 **PANTALLA** — Tres columnas: *Ayer · Hoy · Mañana*. Se llenan una por una.
 
@@ -429,7 +457,7 @@ La IA puede construir el sistema. **Demostrar que cumple sigue siendo tu trabajo
 
 ## 2.4 · Qué buscan ahora las empresas
 
-**TIEMPO** · 17:54 → 18:58 · 1m 03s
+**TIEMPO** · 19:15 → 21:06 · 1m 51s
 
 **PANTALLA** — Dos frases, la de arriba desvaneciéndose:
 > "Sé programar en X."
@@ -449,16 +477,60 @@ Y necesita personas capaces de convertir todo eso en sistemas confiables.
 
 Por eso el perfil valioso se está moviendo de *"sé programar en X"* hacia *"sé resolver problemas usando software"*.
 
+**NOTA** — Aquí baja el registro. Deja el tono de conferencia y habla como si le contaras algo a un amigo. Esta es la única parte de la charla donde el argumento deja de ser una idea y pasa a ser tu vida.
+
+**PANTALLA** — Dos columnas. A la izquierda, *Lo que sé*: **Java**. A la derecha, *Lo que uso todos los días*: **Rust · Python · TypeScript · GCP · Terraform**.
+
+**GUION**
+
+Y les voy a contar algo personal, porque para mí esto no es teoría.
+
+Hace un año y medio trabajo para un cliente en Estados Unidos. El proyecto es en Rust, Python y TypeScript, sobre infraestructura en Google Cloud manejada con Terraform.
+
+Yo soy programador Java. Java neto. Y me encanta Java.
+
+No sabía Rust cuando entré. Y si por "saber Rust" ustedes entienden poder sentarme a escribirlo de memoria, todavía no sé Rust. Tampoco Python.
+
+**NOTA** — Pausa aquí. Deja que la sala procese que acabas de admitir eso en público.
+
+Y la empresa lo sabía. Desde la primera entrevista sabían que yo venía de Java.
+
+Me contrataron igual.
+
+¿Por qué?
+
+Porque no me estaban contratando por la sintaxis. Me contrataron porque sé construir software.
+
+Llevo año y medio entregando en ese proyecto, y lo he logrado por dos cosas — en este orden.
+
+Primero: porque entiendo cómo se diseña un sistema, cómo se modela la información, cómo se maneja la concurrencia, qué es una buena prueba, qué significa operar algo en producción.
+
+Segundo: porque tengo inteligencia artificial disponible para todo lo que no me sé de memoria.
+
+**NOTA** — El orden importa y hay que decirlo con énfasis. Si el público invierte esos dos factores, se lleva exactamente la lección contraria a la que quieres dejar.
+
+Fíjense en el orden. Si fuera solamente la IA, no funcionaría.
+
+**NOTA** — Este párrafo es obligatorio. Sin él, un estudiante de primer semestre concluye "entonces no necesito aprender a programar" — y le habrás hecho daño. No lo recortes nunca, aunque vayas pasado de tiempo.
+
+Y quiero ser muy claro con esto, porque es fácil sacar la lección equivocada.
+
+Esto no significa que no haya que aprender a programar. Significa exactamente lo contrario.
+
+Yo puedo trabajar en Rust sin dominar Rust **porque pasé años dominando Java lo suficientemente bien como para entender qué está haciendo un programa por debajo**.
+
+Sin esos años, la IA me habría entregado código que yo no habría sabido evaluar.
+
 ---
 ---
 
 # ACTO III · La trampa
 
-**CONTROL DE RELOJ** · Este acto ocupa de **18:58** a **23:36** (4m 39s, 12% de la charla). Si al terminarlo tu reloj pasa de **25:06**, estás atrasado. Este es el punto de control que más importa: aplica el plan de recorte del cronometraje ahora, no más adelante.
+**CONTROL DE RELOJ** · Este acto ocupa de **21:06** a **25:45** (4m 39s, 12% de la charla). Si al terminarlo tu reloj pasa de **27:15**, estás atrasado. Este es el punto de control que más importa: aplica el plan de recorte del cronometraje ahora, no más adelante.
 
 ## 3.1 · Vibe coding: lo que sí funciona
 
-**TIEMPO** · 18:58 → 20:23 · 1m 25s
+**TIEMPO** · 21:06 → 22:31 · 1m 25s
 
 **PANTALLA** — Secuencia de prompts, tipo conversación de chat:
 > "Haz que este botón funcione." → "Ahora agrega autenticación." → "Ahora conecta una base de datos." → "Corrige este error."
@@ -489,7 +561,7 @@ El problema empieza cuando confundimos *"funciona en mi computador"* con *"está
 
 ## 3.2 · El interrogatorio
 
-**TIEMPO** · 20:23 → 22:21 · 1m 59s
+**TIEMPO** · 22:31 → 24:30 · 1m 59s
 
 **PANTALLA** — Cada pregunta aparece sola. La respuesta "No sabemos." aparece debajo, en rojo, y se queda acumulándose.
 
@@ -542,7 +614,7 @@ Ese es, para mí, el riesgo más importante de construir software solamente medi
 
 ## 3.3 · La paradoja de la IA
 
-**TIEMPO** · 22:21 → 23:36 · 1m 15s
+**TIEMPO** · 24:30 → 25:45 · 1m 15s
 
 **PANTALLA** — Una línea:
 > Mientras más código pueda escribir la IA, más importantes se vuelven los fundamentos de ingeniería.
@@ -571,16 +643,32 @@ La IA reduce la necesidad de recordar sintaxis.
 
 Pero aumenta la necesidad de **comprender conceptos**.
 
+**NOTA** — Callback a tu historia. Es importante hacerlo: desde que la contaste, parte del público viene pensando *"pero lo que él hace, ¿no es lo mismo que el vibe coding que acaba de criticar?"*. Esta es la respuesta. No la dejes sin dar.
+
+Y aquí quiero volver un momento a lo que les conté de mí.
+
+Yo no sé Rust de memoria. Pero si la IA me propone un manejo de concurrencia equivocado en Rust, lo detecto.
+
+No porque sepa Rust. Porque entiendo concurrencia.
+
+**NOTA** — Pausa. Esta es la distinción más fina de toda la charla.
+
+Esa es exactamente la diferencia entre lo que yo hago y el vibe coding del que hablábamos hace un momento.
+
+No está en la herramienta. Las dos personas usan la misma herramienta.
+
+**Está en lo que uno trae.**
+
 ---
 ---
 
 # ACTO IV · ¿Entonces vale la pena aprender a programar?
 
-**CONTROL DE RELOJ** · Este acto ocupa de **23:36** a **27:51** (4m 15s, 11% de la charla). Si al terminarlo tu reloj pasa de **29:21**, estás atrasado: entrega 5.2 como referencia rápida a las slides.
+**CONTROL DE RELOJ** · Este acto ocupa de **25:45** a **30:00** (4m 15s, 11% de la charla). Si al terminarlo tu reloj pasa de **31:30**, estás atrasado: entrega 5.2 como referencia rápida a las slides.
 
 ## 4.1 · Sí — pero qué significa programar
 
-**TIEMPO** · 23:36 → 24:52 · 1m 16s
+**TIEMPO** · 25:45 → 27:00 · 1m 16s
 
 **PANTALLA** — Bloque de código con las palabras `for` `if` `while` `class` `function`, tachadas. Al lado, la lista de lo que programar realmente enseña.
 
@@ -602,7 +690,7 @@ Eso no se depreció. Eso subió de valor.
 
 ## 4.2 · Del prompt a la especificación
 
-**TIEMPO** · 24:52 → 26:11 · 1m 19s
+**TIEMPO** · 27:00 → 28:20 · 1m 19s
 
 **PANTALLA** — Dos flujos, uno encima del otro:
 > Prompt → código → prompt → más código
@@ -641,7 +729,7 @@ Piénsenlo un segundo. La herramienta no está optimizando la escritura de códi
 
 ## 4.3 · Las cinco capas
 
-**TIEMPO** · 26:11 → 27:51 · 1m 40s
+**TIEMPO** · 28:20 → 30:00 · 1m 40s
 
 **PANTALLA** — Cinco capas apiladas, construyéndose de abajo hacia arriba. Cada capa se destaca mientras hablas de ella.
 
@@ -696,13 +784,13 @@ Porque una IA puede producir veinte alternativas.
 
 # ACTO V · La ruta concreta
 
-**CONTROL DE RELOJ** · Este acto ocupa de **27:51** a **33:25** (5m 34s, 15% de la charla). Si al terminarlo tu reloj pasa de **34:55**, estás atrasado. Salta directo a 6.1: el cierre son 4m 25s y se entregan completos, siempre.
+**CONTROL DE RELOJ** · Este acto ocupa de **30:00** a **35:33** (5m 34s, 14% de la charla). Si al terminarlo tu reloj pasa de **37:03**, estás atrasado. Salta directo a 6.1: el cierre son 4m 25s y se entregan completos, siempre.
 
 **NOTA** — Aquí la charla deja de ser conceptual y se vuelve accionable. Cambia la energía: menos reflexión, más instrucción. Si vas corto de tiempo, este es el acto que se comprime — pero nunca se elimina, porque es lo único que el público se puede llevar y ejecutar el lunes.
 
 ## 5.1 · El orden importa
 
-**TIEMPO** · 27:51 → 30:03 · 2m 12s
+**TIEMPO** · 30:00 → 32:11 · 2m 12s
 
 **PANTALLA** — Siete pasos numerados, revelados uno a uno.
 
@@ -746,7 +834,7 @@ GitHub. Proyectos desplegados. Arquitecturas documentadas. Experimentos. Contrib
 
 ## 5.2 · Los recursos: la escalera de AWS
 
-**TIEMPO** · 30:03 → 33:25 · 3m 22s
+**TIEMPO** · 32:11 → 35:33 · 3m 22s
 
 **PANTALLA** — Cuatro escalones: *AWS Educate → AWS Skill Builder → Kiro → Certificaciones*.
 
@@ -826,13 +914,13 @@ La IA no reemplaza ninguna de las dos.
 
 # CIERRE
 
-**CONTROL DE RELOJ** · Este acto ocupa de **33:25** a **37:50** (4m 25s, 12% de la charla). Si al terminarlo tu reloj pasa de **39:20** no pasa nada. Este bloque no se recorta ni se acelera nunca — es lo único que el público se lleva.
+**CONTROL DE RELOJ** · Este acto ocupa de **35:33** a **39:58** (4m 25s, 11% de la charla). Si al terminarlo tu reloj pasa de **41:28**, no pasa nada. Este bloque no se recorta ni se acelera nunca — es lo único que el público se lleva.
 
 ## 6.1 · Volver a la pregunta inicial
 
-**TIEMPO** · 33:25 → 34:17 · 52s
+**TIEMPO** · 35:33 → 36:25 · 52s
 
-**PANTALLA** — La misma pantalla del Acto 1.1: *¿Perdieron esas tres horas?*
+**PANTALLA** — Exactamente la misma pantalla de 1.1, sin un pixel de diferencia: el contraste *3 horas / 30 segundos* y la pregunta grande. La repetición literal es el recurso; si la cambias, el público no la reconoce.
 
 **GUION**
 
@@ -852,7 +940,7 @@ Porque el objetivo nunca fue aprender a escribir código.
 
 ## 6.2 · No compitas con la IA
 
-**TIEMPO** · 34:17 → 35:20 · 1m 04s
+**TIEMPO** · 36:25 → 37:29 · 1m 04s
 
 **PANTALLA** — Una línea:
 > No intenten ser la persona que escribe código más rápido que una IA.
@@ -873,7 +961,7 @@ Porque la habilidad no es *usar IA*.
 
 ## 6.3 · Tres ideas para llevarse a casa
 
-**TIEMPO** · 35:20 → 36:40 · 1m 19s
+**TIEMPO** · 37:29 → 38:48 · 1m 19s
 
 **PANTALLA** — Tres bloques numerados, uno por uno.
 
@@ -893,7 +981,7 @@ Y ahí sigue haciendo falta un ingeniero.
 
 ## 6.4 · Última frase
 
-**TIEMPO** · 36:40 → 37:50 · 1m 10s
+**TIEMPO** · 38:48 → 39:58 · 1m 10s
 
 **PANTALLA** — Negro. Sin texto, hasta la pantalla final.
 
